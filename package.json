@@ -1,23 +1,18 @@
 {
-  "name": "nodejs-sb",
+  "name": "nodejs-railway",
   "version": "1.0.0",
-  "description": "nodejs",
+  "description": "Railway-ready Node.js service",
   "main": "index.js",
-  "author": "eooce",
-  "repository": "",
-  "license": "MIT",
-  "private": false,
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {
-    "axios": "latest",
-    "dotenv": "latest",
-    "express": "latest"
-  },
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
   }
 }
-  
-
